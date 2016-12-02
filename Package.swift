@@ -17,9 +17,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "CDB2Driver",
+    name: "CIBMDB",
     dependencies: [
-      .Package(url: "git@github.ibm.com:IBM-Swift/CODBC.git", majorVersion: 0, minor: 0)
+      .Package(url: "https://github.com/IBM-Swift/CODBC", majorVersion: 0, minor: 0)
     ]
 
 )
